@@ -40,7 +40,7 @@
 - Tamanho (P, M, G)
 
 ### Tabela Principal
-Produto
+Produtos
 - id_prod (not null, auto_increment) PK
 - tipo FK
 - cor FK
