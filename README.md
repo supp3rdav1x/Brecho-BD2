@@ -19,39 +19,38 @@
 
 ## Banco de Dados
 
-- Produto
-  - cod-produto (pk)
-  - tipo (fk)
-  - cor (fk)
-  - tamanho (fk)
-  - qr-code
-  - foto
-  - preco-compra
-  - ganho-porcent
-  - proco-venda
-  - descricao
-  - data-entrada
-  - data-venda
-  - 
-
 ### Tabelas Auxiliares
-- Tipo (Bermuda, Calça, Tênis)
-- Cor (Branco, Vermelho, Preto)
-- Tamanho (P, M, G)
+Tipo
+- codtipo PK
+- nometipo
+
+Cor
+- codcor PK
+- nomecor
+
+Tamanho
+- codtamanho PK
+- nometamanho
+
+Situacao
+- codsituacao PK
+- nomesituacao
 
 ### Tabela Principal
 Produtos
-- id_prod (not null, auto_increment) PK
-- tipo FK
-- cor FK
-- tamanho FK
-- qrcode_prod
-- valor_entrada
-- valor_saida
-- desc_prod
-- foto_prod
-- data_entrada
-- data_saida
+- codprod PK
+- qrcode
+- tipoprod FK
+- corprod FK
+- tamprod FK
+- sitprod FK
+- descprod
+- valorent
+- valorsaida
+- dataent
+- datasaida
+- fotoprod
+
 
 ### Relatórios
 - O que mais vende?
