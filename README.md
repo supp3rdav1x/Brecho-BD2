@@ -20,24 +20,25 @@
 ## Banco de Dados
 
 ### Tabelas Auxiliares
-Tipo
+
+#### Tipo
 - codtipo PK
 - nometipo
 
-Cor
+#### Cor
 - codcor PK
 - nomecor
 
-Tamanho
+#### Tamanho
 - codtamanho PK
 - nometamanho
 
-Situacao
+#### Situacao
 - codsituacao PK
 - nomesituacao
 
 ### Tabela Principal
-Produtos
+#### Produtos
 - codprod PK
 - qrcode
 - tipoprod FK
