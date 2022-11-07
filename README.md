@@ -40,7 +40,7 @@
 ### Tabela Principal
 #### Produtos
 - codprod PK
-- qrcode
+- qrcode UN
 - tipoprod FK
 - corprod FK
 - tamprod FK
